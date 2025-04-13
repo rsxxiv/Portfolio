@@ -1,54 +1,30 @@
-# React + TypeScript + Vite
+# Rudraksh Saraf - Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains the source code for my personal portfolio website. It serves as a dynamic resume and showcase of my skills, projects, professional experience, and educational background as an AI & Backend Developer. The site is designed to be visually appealing, responsive, and informative for potential employers, collaborators, or anyone interested in my work.
 
-Currently, two official plugins are available:
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The portfolio is a single-page application (SPA) featuring several distinct sections:
 
-## Expanding the ESLint configuration
+- **Home:** A hero section with a brief introduction, profile picture, and quick links.
+- **About:** More detailed information about my background, passion for AI and backend development, and core competencies.
+- **Experience:** A timeline detailing my work history, internships, and key responsibilities/achievements.
+- **Skills:** A breakdown of my technical skills (programming languages, frameworks, databases, tools), graphic design abilities, and soft skills. Includes visual skill bars for key competencies.
+- **Projects:** Cards showcasing selected personal and professional projects, with descriptions, technologies used, and links to GitHub repositories.
+- **Education:** Information about my academic qualifications and relevant certifications.
+- **Contact:** A contact form (powered by FormSubmit) and links to my professional profiles (GitHub, LinkedIn) and email.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+The website features smooth scrolling, responsive design for various screen sizes, subtle animations, and a consistent dark theme with accent colors.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Technologies Used
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+This project leverages a modern web development stack:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+- **Framework/Library:** **React (v19)** - Chosen for its component-based architecture, efficient rendering, and extensive ecosystem, enabling the creation of a modular and maintainable user interface.
+- **Language:** **TypeScript** - Used to add static typing to JavaScript, improving code quality, developer productivity, and reducing runtime errors.
+- **Build Tool:** **Vite** - Provides an extremely fast development server with Hot Module Replacement (HMR) and optimized production builds, significantly speeding up the development workflow.
+- **Styling:** **Tailwind CSS (v4)** - A utility-first CSS framework used for rapidly building custom designs directly in the markup. It allows for a highly customizable and responsive layout without writing extensive custom CSS. The `@tailwindcss/vite` plugin integrates it seamlessly with Vite.
+- **Icons:** **React Icons (Fi)** - Provides easy access to a wide range of popular icon sets (Feather Icons in this case) as React components, used throughout the UI for visual cues and branding.
+- **Particles:** **tsparticles** - Integrated to create an animated particle background effect, adding a dynamic and visually engaging element to the site (though currently commented out in `App.tsx`).
+- **Form Handling:** **FormSubmit.co** - Used as a simple backend service to handle contact form submissions without requiring a custom server-side setup. The endpoint is configured via environment variables (`.env`).
+- **Linting/Formatting:** **ESLint** & **TypeScript ESLint** - Configured to enforce code style consistency and catch potential errors early in the development process.
