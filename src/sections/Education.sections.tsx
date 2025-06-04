@@ -76,22 +76,22 @@ const Education: React.FC = () => {
             <div className="space-y-6 flex-1">
               {[
                 {
+                  name: "Generative AI with Large Language Models",
+                  provider: "DeepLearning.AI - Coursera",
+                  date: "Apr-May 2025",
+                  link: "https://www.coursera.org/account/accomplishments/records/L2UBS7P492OJ",
+                },
+                {
                   name: "Responsible & Safe AI Systems",
                   provider: "NPTEL Online Certification",
                   date: "Jul-Oct 2024",
-                  link:"https://drive.google.com/file/d/1pJBe47Q3N4H5aK8i6i3AU-g3paGmXLKJ/view?usp=sharing",
+                  link: "https://drive.google.com/file/d/1pJBe47Q3N4H5aK8i6i3AU-g3paGmXLKJ/view?usp=sharing",
                 },
                 {
                   name: "Python For Data Science",
                   provider: "NPTEL Online Certification",
                   date: "Jul-Aug 2023",
-                  link:"https://drive.google.com/file/d/1VDAT7IJx06B8JY6k1LeNWubG9bxsWt3Z/view?usp=sharing",
-                },
-                {
-                  name: "Cyber Security & Privacy",
-                  provider: "NPTEL Online Certification",
-                  date: "Jul-Oct 2023",
-                  link:"https://drive.google.com/file/d/1rfbaYRB68DyZWUXl2x2J4LhvzO9vRJCK/view?usp=sharing",
+                  link: "https://drive.google.com/file/d/1VDAT7IJx06B8JY6k1LeNWubG9bxsWt3Z/view?usp=sharing",
                 },
               ].map((cert) => (
                 <div
@@ -107,10 +107,13 @@ const Education: React.FC = () => {
                     </div>
                   </div>
                   <div className="flex justify-between items-center mt-2">
-                    <p className="text-[#fca311] text-sm group-hover:text-white">{cert.provider}</p>
-                    <button 
-                     onClick={() => window.open(`${cert.link}`, "_blank")}
-                    className="text-sm text-[#fca311] hover:border-amber-400 flex items-center">
+                    <p className="text-[#fca311] text-sm group-hover:text-white">
+                      {cert.provider}
+                    </p>
+                    <button
+                      onClick={() => window.open(`${cert.link}`, "_blank")}
+                      className="text-sm text-[#fca311] hover:border-amber-400 flex items-center"
+                    >
                       <span>View Certificate</span>
                       <FiArrowRight className="ml-1 h-4 w-4" />
                     </button>
