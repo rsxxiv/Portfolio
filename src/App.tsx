@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Analytics } from "@vercel/analytics/next"
 
 import Navbar from "./components/Navbar";
 import Hero from "./sections/Hero.sections";
@@ -79,7 +80,9 @@ export default function Portfolio() {
       
       {/* Footer */}
       <Footer />
-      
+
+      {/* Analytics */}
+      <Analytics />      
     </div>
   );
 }
