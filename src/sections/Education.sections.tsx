@@ -76,6 +76,18 @@ const Education: React.FC = () => {
             <div className="space-y-6 flex-1">
               {[
                 {
+                  name: "SAP Certified Associate - Backend Developer - SAP Cloud Application Programming Model",
+                  provider: "SAP",
+                  date: "Dec 2025",
+                  link: "https://www.credly.com/badges/a94f3480-3527-4990-9c12-96d217da8ad2",
+                },
+                {
+                  name: "SAP Certified Associate - SAP Fiori Application Developer",
+                  provider: "SAP",
+                  date: "Nov 2025",
+                  link: "https://www.credly.com/badges/0663e4e1-beb1-471d-a2ed-2aa702f1dcff",
+                },
+                {
                   name: "Generative AI with Large Language Models",
                   provider: "DeepLearning.AI - Coursera",
                   date: "Apr-May 2025",

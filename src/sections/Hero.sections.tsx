@@ -27,11 +27,12 @@ const Hero: React.FC = () => {
               <span className="block text-[#fca311] mt-1">Rudraksh Saraf</span>
             </h1>
             <p className="mt-3 text-lg sm:text-xl md:text-2xl text-[#e5e5e5]">
-              AI & Backend Developer
+              SAP BTP Developer | CAP | Fiori | GenAI
             </p>
             <p className="mt-5 text-gray-400 max-w-md">
-              Building AI-driven applications and scalable backend systems with
-              a focus on efficiency and innovation.
+              Designing and developing intelligent full-stack enterprise
+              applications using SAP CAP, Fiori/UI5, and Generative AI
+              technologies.
             </p>
             <div className="mt-8 flex flex-wrap gap-4 justify-center md:justify-start">
               <a
@@ -86,9 +87,10 @@ const Hero: React.FC = () => {
             <div className="relative w-full h-96">
               <div className="absolute inset-0 bg-[#0c1426] rounded-lg backdrop-blur-md border-3 border-[#fca311] border-opacity-50"></div>
               <div className="relative w-full h-96 flex items-center justify-center">
-                <div className="relative h-64 w-64 rounded-full bg-gradient-to-br from-[#fca311] to-[#e5e5e5] shadow-2xl shadow-[#fca311]/20 flex items-center justify-center">
+                <div className="relative h-64 w-64 rounded-full bg-gradient-to-br from-[#1f1f1d] to-[#1f1f1d] shadow-2xl shadow-[#fca311]/20 flex items-center justify-center">
                   <img
-                    src="profile-pic2.png"
+                    src="profile-transparent-enhanced.png"
+                    // src="profile-pic2.png"
                     alt="Rudraksh Saraf"
                     className="h-56 w-56 object-cover rounded-full shadow-lg shadow-[#0c1426]/60"
                   />

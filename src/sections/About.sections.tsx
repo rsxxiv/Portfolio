@@ -32,24 +32,22 @@ const About: React.FC = () => {
 
           <div className="md:w-1/2">
             <h3 className="text-2xl font-bold text-[#fca311] mb-4">
-              {" "}
-              {/* Subheading color */}
-              AI & Backend Developer
+              SAP BTP Developer | CAP | Fiori | GenAI
             </h3>
             <p className="text-[#e5e5e5] mb-4">
-              B.Tech student in Artificial Intelligence and Machine Learning
-              with experience in developing AI-driven applications, backend
-              systems, and automation solutions. Passionate about building
-              efficient, data-driven applications that solve real-world
-              problems.
+              SAP BTP developer with hands-on experience in building full-stack
+              enterprise applications using CAP (Cloud Application Programming
+              Model), SAP Fiori/UI5, and cloud-native services. Currently
+              working on implementation projects involving scalable
+              architectures and enterprise integrations.
             </p>
             <p className="text-[#e5e5e5] mb-6">
-              I specialize in integrating AI models with scalable architectures,
-              optimizing system performance, and implementing web scraping
-              solutions. My technical expertise includes Python, Django,
-              Node.js, TypeScript, as well as RESTful API design.
+              I specialize in developing intelligent applications by integrating
+              Generative AI capabilities (SAP AI Core, Joule) with CAP-based
+              services, while leveraging Python for AI/ML workflows and
+              Node.js/TypeScript for backend services. Experienced in designing
+              OData APIs, CDS data models, and secure, scalable systems.
             </p>
-            {/* Removed the details grid and contact button as they were commented out */}
           </div>
         </div>
       </div>

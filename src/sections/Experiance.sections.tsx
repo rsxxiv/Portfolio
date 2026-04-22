@@ -17,11 +17,67 @@ const Experience: React.FC = () => {
         </div>
 
         <div className="relative before:absolute before:inset-y-0 before:left-5 before:w-0.5 before:bg-[#0c1426] before:bg-opacity-70 md:before:left-1/2 md:before:-translate-x-1/2">
+          {/* Timeline Entry: LTM */}
+          <div className="relative md:flex items-center md:justify-between group">
+            <div className="md:w-1/2 md:pl-8 md:order-2 flex md:justify-start items-center mb-4 md:mb-0 space-x-4">
+              <div className="z-10 flex items-center justify-center w-10 h-10 bg-[#0c1426] rounded-full shadow-md">
+                <FiBriefcase className="w-5 h-5 text-[#fca311]" />
+              </div>
+              <div className="text-gray-400 text-left">
+                September 2025 - Present
+              </div>
+            </div>
+            <div className="md:w-1/2 md:pr-8 md:order-1">
+              <div className="bg-[#0c1426] p-6 rounded-lg shadow-lg border border-[#0c1426] border-opacity-60 group-hover:border-[#fca311] group-hover:shadow-[#fca311]/10 transition-all">
+                <h3 className="text-xl font-bold text-[#fca311]">
+                  Consultant- Package Implementation (SAP BTP)
+                </h3>
+                <p className="text-[#e5e5e5] mb-4">
+                  LTM (formerly LTIMindtree)
+                </p>
+                <ul className="text-gray-400 space-y-2">
+                  <li className="flex items-start">
+                    <div className="mr-2 mt-1">•</div>
+                    <div>
+                      Designed and developed full-stack applications on SAP BTP
+                      using CAP (Node.js), CDS data models, OData V4 services,
+                      and SAP HANA Cloud.
+                    </div>
+                  </li>
+                  <li className="flex items-start">
+                    <div className="mr-2 mt-1">•</div>
+                    <div>
+                      Built responsive SAP Fiori/UI5 apps leveraging Fiori
+                      Elements, annotations, and SAP Launchpad service for
+                      enterprise UX.
+                    </div>
+                  </li>
+                  <li className="flex items-start">
+                    <div className="mr-2 mt-1">•</div>
+                    <div>
+                      Developed Joule skills and AI agents, and implemented
+                      GenAI POCs using SAP AI Core, AI Launchpad, and
+                      integration with external LLM services.
+                    </div>
+                  </li>
+                  <li className="flex items-start">
+                    <div className="mr-2 mt-1">•</div>
+                    <div>
+                      Integrated services using SAP BTP (Destination,
+                      Connectivity), handled authentication/authorization, and
+                      deployed via Cloud Foundry.
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
           {/* Timeline Entry: Baari Labs */}
           <div className="relative md:flex items-center md:justify-between mb-12 group">
             <div className="md:w-1/2 md:pr-8 flex md:justify-end items-center mb-4 md:mb-0 space-x-4">
               <div className="text-gray-400 text-right">
-                January 2025 - Present
+                January 2025 - May 2025
               </div>
               <div className="z-10 flex items-center justify-center w-10 h-10 bg-[#0c1426] rounded-full shadow-md">
                 <FiBriefcase className="w-5 h-5 text-[#fca311]" />
