@@ -30,7 +30,7 @@ const Experience: React.FC = () => {
             <div className="md:w-1/2 md:pr-8 md:order-1">
               <div className="bg-[#0c1426] p-6 rounded-lg shadow-lg border border-[#0c1426] border-opacity-60 group-hover:border-[#fca311] group-hover:shadow-[#fca311]/10 transition-all">
                 <h3 className="text-xl font-bold text-[#fca311]">
-                  Consultant- Package Implementation (SAP BTP)
+                  Consultant - Package Implementation (SAP BTP)
                 </h3>
                 <p className="text-[#e5e5e5] mb-4">
                   LTM (formerly LTIMindtree)

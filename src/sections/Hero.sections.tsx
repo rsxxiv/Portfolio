@@ -27,7 +27,7 @@ const Hero: React.FC = () => {
               <span className="block text-[#fca311] mt-1">Rudraksh Saraf</span>
             </h1>
             <p className="mt-3 text-lg sm:text-xl md:text-2xl text-[#e5e5e5]">
-              SAP BTP Developer | CAP | Fiori | GenAI
+              SAP Certified BTP Developer | CAP | Fiori | GenAI
             </p>
             <p className="mt-5 text-gray-400 max-w-md">
               Designing and developing intelligent full-stack enterprise

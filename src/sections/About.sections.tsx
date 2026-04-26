@@ -32,7 +32,7 @@ const About: React.FC = () => {
 
           <div className="md:w-1/2">
             <h3 className="text-2xl font-bold text-[#fca311] mb-4">
-              SAP BTP Developer | CAP | Fiori | GenAI
+              SAP Certified BTP Developer | CAP | Fiori | GenAI
             </h3>
             <p className="text-[#e5e5e5] mb-4">
               SAP BTP developer with hands-on experience in building full-stack
